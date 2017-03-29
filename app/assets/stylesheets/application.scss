@@ -1,0 +1,73 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#nav a {
+    font-family: 'Abel';
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    padding: 0 10px;
+    display: none;
+    float: left;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    height: 50px;
+    display:none;   
+}
+#top-column {
+    margin-top: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #949494;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.social {
+    line-height: 50px;
+    float: right;
+}
+.social img {
+    margin-left: 2px;
+}
+body {
+    background: #f4f4f4 url(/assets/bg_home.jpg) no-repeat;
+    background-size: cover;
+}
+#podcast {
+    height: 170px;
+    overflow: auto;
+}

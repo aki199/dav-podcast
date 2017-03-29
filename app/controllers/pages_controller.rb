@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   def index
+      @podcasts = Podcast.all
   end
-
   def home
   end
 

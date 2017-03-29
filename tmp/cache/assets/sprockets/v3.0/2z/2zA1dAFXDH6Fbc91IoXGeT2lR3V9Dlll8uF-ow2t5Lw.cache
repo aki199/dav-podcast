@@ -1,0 +1,9 @@
+I"£(function() {
+  $(document).ready(function() {
+    $.each($('#nav a'), function(i, link) {
+      $(link).delay(i * 300).fadeIn(600);
+    });
+  });
+
+}).call(this);
+:ET

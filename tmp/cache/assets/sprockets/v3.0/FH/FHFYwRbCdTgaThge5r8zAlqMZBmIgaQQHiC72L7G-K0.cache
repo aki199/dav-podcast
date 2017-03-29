@@ -1,0 +1,13 @@
+I"á(function() {
+  $(document).ready(function() {
+    return $`.topnav`.slideDown('slow', function() {});
+  });
+
+  $.each($('#nav a'), function(i, link) {
+    $(link).delay(i * 300).fadeIn(600);
+  });
+
+  return;
+
+}).call(this);
+:ET
